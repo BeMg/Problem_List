@@ -37,7 +37,7 @@ void dijkstra() {
 	int v = p.second;
 	int d = p.first;
 
-	if(dist[v] < d)continue;
+	if(dist2[v] < d)continue;
 
 	for(int i=0; i<G[v].size(); i++) {
 	    edge &e = G[v][i];
