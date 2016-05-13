@@ -67,9 +67,9 @@ int main() {
             cout << endl;
         }
         */
-        
+
         int flag = DFS(0,0);
-        
+
 
         if(!flag) {
 
@@ -77,13 +77,13 @@ int main() {
 
         } else {
 
-			for(int i=0; i<num; i++) {
-				cout << v[ans[i]];
-				if(i==num-1)
-					cout << endl;
-				else 
-					cout << ".";
-			}
+            for(int i=0; i<num; i++) {
+                cout << v[ans[i]];
+                if(i==num-1)
+                    cout << endl;
+                else
+                    cout << ".";
+            }
 
         }
 
